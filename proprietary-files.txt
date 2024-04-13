@@ -648,6 +648,7 @@ odm/lib64/libaps_frame_registration.so
 odm/lib64/libapsdarksight.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
+odm/lib64/libapsultrahdr.so
 odm/lib64/libapsyuv.so
 odm/lib64/libarcsoft_aicolor_image.so
 odm/lib64/libarcsoft_aicolor_video.so
