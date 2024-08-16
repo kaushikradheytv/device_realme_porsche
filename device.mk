@@ -25,6 +25,17 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_TOUCHGESTURES := true
+TARGET_USES_OPLUS_CAMERA := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_BLUR := true
+TARGET_UDFPS_ANIMATIONS := true 
+EXTRA_UDFPS_ANIMATIONS := true // This is cprrect and hould be here obly
+# Gapps
+WITH_GAPPS := true
+BLAZE_MAINTAINER := Mister_X
+
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
